@@ -1,4 +1,4 @@
-# MEMS_Layout_Library
+# MEMS_Microrobot_Library
 
 This repository is a MATLAB library designed to aid in MEMS microrobot design and layout. Generally, this library
 can be used for any application requiring the generation of .GDS files directly from MATLAB.  
@@ -10,5 +10,7 @@ from generating a simple rectangle, to generating an entire microrobot.
 Ulf's work can be found on his github page here: https://github.com/ulfgri/gdsii-toolbox
 Or downloaded directly here: https://sites.google.com/site/ulfgri/numerical/gdsii-toolbox
 
-This version of the Microrobot Library was built using version 141 of Ulf's gdsii-toolbox. 
+After installing ULF's gdsii-toolbox, clone this repository and run the tutorial.m script.  
+
+Version 1 of the Microrobot Library was built using version 141 of Ulf's gdsii-toolbox. 
 
