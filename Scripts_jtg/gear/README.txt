@@ -1,7 +1,16 @@
-function handle = circle(x,y,r)
-% handle = circle(x,y,r)
-%
-% This MATLAB function draws a circle of radius r with center at x,y.
+Multigear v0.1
+
+This is a small collection of small MATLAB scripts and functions for calculating the center distance of three gears and a straight rack.  
+
+v0.1 Initial Release: July 18, 2010
+
+To run it: 
+
+1. Unzip the *.m files into a directory that is in your MATLAB path.
+
+2. Type 'trigearRack' at the command prompt.
+
+3. Adjust the parameters at the top of 'trigearRack.m' to change geometry.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  
@@ -25,8 +34,11 @@ function handle = circle(x,y,r)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-n = 50; % number of line segments the circle will be made up of
-t = linspace(0,2*pi,n); % angular coordinates
-xx = x + r*cos(t); % x coordinates
-yy = y + r*sin(t); % y coordinates
-handle = line(xx,yy); % draw it
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+This file has been used and modified by Joseph Greenspun at UC Berkeley. 
+
+Thanks for all the hard work Matt!
+
+03/21/18
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

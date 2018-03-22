@@ -786,7 +786,7 @@ if h_gim.manual == 0        %Should we draw a motor?
     h_motor.circle_etch_holes = 1;
     h_motor.num_inch_sets = 2;
     h_motor.ground_serpentine = 1;
-    [m1 moto_pts]= motor_v2(h_motor);
+    [m1 moto_pts]= motor(h_motor);
     
     % Add manual-ish dummy fill for motors
     %cent_to_cent = 1830;            % Distance from center to center of backstops
@@ -947,7 +947,7 @@ if h_gim.manual == 0        %Should we draw a motor?
     % add left motor
     h_motor.pos = left_ga_points(1,:) - [h_motor.shuttle_w/2  0];         %set motor at bottom of gear rack
     h_motor.label = 'M2';
-    [m2 moto_pts]= motor_v2(h_motor);
+    [m2 moto_pts]= motor(h_motor);
      
     for ii = 2:2:length(moto_pts)
         %Find the bottom left point
