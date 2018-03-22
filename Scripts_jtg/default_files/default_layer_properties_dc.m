@@ -1,0 +1,13 @@
+% default layer numbers/names
+
+TRENCH=0;
+NOTTRENCH=1;
+RETRENCH=2;
+SOI=3;
+SOIHOLE=4;
+RESOI=5;
+METAL=6;
+METALHOLE=7;
+REMETAL=8;
+DUMMY=9;
+NOTDUMMY=10;
