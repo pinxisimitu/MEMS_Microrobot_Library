@@ -7,7 +7,7 @@ This repository is built upon (and requires) the work done by Ulf Griesmann to g
 capable of generating .GDS files. We took this basic library and built additional functions that range in complexity
 from generating a simple rectangle, to generating an entire microrobot. 
 
-Ulf's work can be found on his github page here: https://github.com/ulfgri/gdsii-toolbox
+Ulf's work can be found on his github page here: https://github.com/ulfgri/gdsii-toolbox \n
 Or downloaded directly here: https://sites.google.com/site/ulfgri/numerical/gdsii-toolbox
 
 After installing Ulf's gdsii-toolbox, clone this repository and run the tutorial.m script. Make sure both the gdsii-toolbox and this repository are in your MATLAB PATH.   
